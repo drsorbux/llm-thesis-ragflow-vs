@@ -46,5 +46,18 @@ Experiments are conducted using the **SQuAD v2.0** dataset and analyzed with **L
 
 ---
 
-## 📁 Folder Structure
+📈 Results Summary
+| Model           | Correctness | Relevancy | Response Time |
+| --------------- | ----------- | --------- | ------------- |
+| GPT4o + No-RAG  | 0.25        | **0.81**  | 3.17 s        |
+| GPT4o + RAG     | 0.43        | 0.73      | 5.38 s        |
+| GPT4o + Multi   | 0.46        | 0.72      | 24.72 s       |
+| Gemini + No-RAG | 0.54        | 0.61      | **1.86 s**    |
+| Gemini + RAG    | 0.76        | 0.60      | 4.00 s        |
+| Gemini + Multi  | **0.78**    | 0.58      | 33.61 s       |
 
+📜 License
+MIT License — for academic and educational use.
+For citations, please reference:
+
+Sorbello, Andrea. Benchmarking RAG and Multi-RAG on LLMs using LangFlow. Università degli Studi, 2025.
